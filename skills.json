@@ -1,0 +1,48 @@
+{
+    "skills": [
+        {
+            "name": "JavaScript",
+            "icono": "https://img.icons8.com/color/48/javascript--v1.png",
+            "image": "../img/UC-9ebc29ce-cb96-4149-9921-3331fe729f48.jpg",
+            "courseContext": "Developing websites from scratch with JavaScript. Mastering the fundamentals of HTML & CSS to interact with JavaScript. Creating dynamic and interactive websites. Programming from basics to servers, security, and databases. Being a flexible programmer, prepared for entertainment, administrative, operational, and network sites. Mastering advanced aspects such as prototypes, inheritance, and asynchronous programming. Applying object-oriented programming in your projects. Using Webpack to manage and optimize your development resources. Focusing on security in web development, implementing best practices to protect your applications and data. Making API calls with Fetch and Axios."
+        },
+        {
+            "name": "Python",
+            "icono": "https://img.icons8.com/color/48/python--v1.png",
+            "image": "../img/UC-442ef534-e8b1-4dd9-8770-c67cf60904d4.jpg",
+            "courseContext": "In this Python course, I acquired skills to program professionally. I developed solid and advanced programs, working on real-world projects every day. Each section concluded with a project, allowing me to immediately apply what I learned. I used Python in a variety of applications, from games to artificial intelligence, machine learning, data science, and administrative management. I also delved into Object-Oriented Programming (OOP) and learned to understand complex concepts clearly."  
+        },
+        {
+            "name": "FastAPI",
+            "icono": "../img/fastapi_logo_icon_248575.png",
+            "image": "../img/UC-1129edb0-5996-4d5f-b281-c88b22ca246e.jpg",
+            "courseContext": "SQLAlchemy with FastAPI, Using Alembic for database migrations, Creating models in Python, Building APIs, Generating JWT, Protecting APIs, Authentication, Testing, Deploying to Heroku, Creating databases in Heroku, Connecting FastAPI and Flask using Docker-compose, Docker in FastAPI."   
+        },
+        {
+            "name": "PostgreSQL",
+            "icono": "https://img.icons8.com/color/48/postgreesql.png",
+            "image": "",
+            "courseContext": "In a year and a half, I have developed strong skills in PostgreSQL. I can design and create relational databases, write complex queries using SQL, and manage database interactions in applications. I have also learned about database normalization, indexing, and performance optimization. While I am continuing to expand my knowledge, I am eager to continue learning and applying PostgreSQL in practical projects."   
+        },
+        {
+            "name": "CSS",
+            "icono": "https://img.icons8.com/color/48/css3.png",
+            "image": "",
+            "courseContext": "In a year and a half, I have developed strong skills in CSS. I can effectively style web pages using properties like color, font size, margin, and padding. Additionally, I have learned to use flexbox and grid to design modern and responsive layouts. I also have experience in responsive web design to ensure that sites look good on different devices. Although I am still in the learning process, I am excited to continue improving my CSS skills and learn new techniques to enhance my web design abilities."   
+        },
+        {
+            "name": "HTML",
+            "icono": "https://img.icons8.com/color/48/html-5--v1.png",
+            "image": "",
+            "courseContext": "In the past year, I have significantly advanced my skills in HTML, enhancing my ability to structure documents semantically with elements like <header>, <nav>, <main>, <section>, and <footer>. I have also strengthened my knowledge of essential tags such as <h1> to <h6>, <p>, <a>, <img>, <ul>, <ol>, and <table>, and I have learned to create effective forms using <form>, <input>, <textarea>, and <button>. Furthermore, I have acquired proficiency in using attributes like id, class, href, src, and alt to improve element identification, styling, and accessibility. I have also learned to integrate multimedia content with <img>, <audio>, and <video> tags, making my content more interactive and engaging. Lastly, I focus on following HTML best practices, such as regularly validating my code, to ensure compatibility with browsers and improve web accessibility. This contributes to an enhanced user experience and greater online visibility."   
+        },
+        {
+            "name": "React",
+            "icono": "https://img.icons8.com/color/48/react-native.png",
+            "image": "",
+            "courseContext": "Build enterprise-level React applications and deploy them to production (using React 18!). Learn to build reactive, performant, large-scale applications like a senior developer. Master the latest features in React including Hooks, Context API, Suspense, React Lazy + more. Become the top 10% ReactJS Developer. Using GraphQL as a React Developer. Use Redux, Redux Thunk, and Redux Saga in your applications. Learn to compare tradeoffs when it comes to different state management approaches. Set up authentication and user accounts. Use Firebase to build full-stack applications. Learn to lead React projects by making good architecture decisions and helping others on your team. Master React Design Patterns. Learn CSS in JS with styled-components. Routing with React Router. Convert apps to Progressive Web Apps. Testing your application with Jest, Enzyme, and snapshot testing. Handling online payments with Stripe API. Using the latest ES6/ES7/ES8/ES9/ES10/ES11 JavaScript features to write clean code."
+        }
+    
+    ]
+}
+

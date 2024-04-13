@@ -1,0 +1,481 @@
+:root {
+    --color1: rgba(255, 51, 0, 1); /* Orange */
+    --color2: rgba(43, 43, 44, 1); /* Dark Gray */
+    --color3: rgba(255, 255, 255, 1); /* White */
+    --color4: rgba(68, 71, 74, 0.7); /* Light Gray with transparency */
+    --color5: rgba(68, 71, 74, 1); /* Gray */
+    --color6: rgba(0,0,0, 1);
+  }
+  
+body {
+    background-color: var(--color3); /* White background */
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+  
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color5); /* Gray background for navigation */
+    padding: 10px;
+    height: 50px;
+    max-height: 50px;
+    position: fixed; /* Make the navigation bar fixed */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Position it at the left of the viewport */
+    width: 100%; /* Make it span the entire width */
+    z-index: 10; /* Ensure it stays on top of other content (optional) */
+  }
+  
+  /* Resto de estilos para .nav-logo, .nav-logo img, .nav-container-menu y .nav-span */
+  
+  
+.nav-logo {
+    height: 100%; /* Fills the height of the navigation container */
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: auto;
+    width: 150px; /* Adjust width as needed */
+    margin-left: 20%; /* Adjust margin for logo placement */
+    margin-top: 10px;
+}
+  
+.nav-container-menu {
+    display: flex;
+    margin-right: 1%;
+}
+
+.nav-span {
+    margin-right: 20px;
+    color: white; /* White text color for navigation */
+    font-size: 16px;
+}
+
+  
+  
+.container-presentation {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color1);
+    margin-top: 5%;
+}
+  
+.presentation-context {
+    flex-grow: 1;
+    text-align: center;
+    animation: animacion-texto 2s ease-in-out forwards;
+
+}
+  
+.presentation-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: var(--color4);
+}
+
+.presentation-span {
+    text-align: center;
+    
+}
+
+.presentation-img {
+  margin-top: 0%;
+  width: 500px; /* Ancho y alto iguales para que sea un círculo perfecto */
+  height: 500px;
+  border-radius: 50%; /* Hace que el contenedor sea un círculo */
+  overflow: hidden; /* Oculta las partes de la imagen que se desborden */
+  margin-right: 50px;
+  border: solid 2px var(--color2);
+  animation: animacion-imagen 2s ease-in-out forwards;
+
+
+}
+
+.presentation-img img {
+  height: 100%; /* La imagen ocupa todo el contenedor */
+  width: 100%; /* La imagen ocupa todo el contenedor */
+  object-fit: cover; /* La imagen se ajusta para cubrir el contenedor sin deformarse */
+  border-radius: 50%;
+}
+
+
+
+@keyframes animacion-imagen {
+    from {
+      transform: translateX(150%);
+    }
+    to {
+      transform: translateX(0);
+      /* opacity: 1; */
+    }
+  }
+  
+  @keyframes animacion-texto {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+      /* opacity: 1; */
+    }
+  }
+
+  
+  @media (max-width: 768px) {
+    .container-presentation {
+      flex-direction: column;
+    }
+  }
+  
+
+
+  .container-grid-project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    width: 60%;
+    padding: 0;
+    /* background-color: var(--color4); */
+    margin-top: 5% !important;
+    margin: 0 auto;
+    height: 400px; /* Reducir la altura */
+    padding: 1%;
+    opacity: 0;
+    transform: translateY(0px);
+    transition: opacity 2.5s, transform 0.5s;
+  }
+  
+  .container-grid-project.in-view {
+    opacity: 1;
+    /* transform: translateY(0); */
+    transition: 3s;
+  }
+  
+  .grid-item {
+    border: solid 3px;
+  }
+  
+  .first-div { /* Target the first child */
+    grid-row: span 3; /* Make it span 3 columns */
+  }
+
+  .first-div img { /* Target the first child */
+    height: 100%;
+  }
+  
+  .second-div { /* Target the first child */
+    grid-column: span 2; /* Make it span 3 columns */
+  }
+  
+  .third-div { /* Target the first child */
+    grid-column: span 2; /* Make it span 3 columns */
+  }
+  
+  .fourth-div { /* Target the first child */
+    grid-column: span 2; /* Make it span 3 columns */
+  }
+  
+  .fifth-div { /* Target the first child */
+    grid-column: span 3; /* Make it span 3 columns */
+  }
+
+  .grid-item {
+    border: solid 3px;
+    max-height: 100%;
+    overflow: hidden; /* Para ocultar cualquier contenido que pueda desbordar */
+}
+
+  .imgGrid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+
+.container-skills-contacts {
+    opacity: 0 ;
+    margin-top: 6%;
+    /* border: solid 2px; */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), var(--color4));
+    height: 500px;
+    transition: 2s;
+}
+
+
+.in-view {
+    transition: 2s;
+    opacity: 1;
+}
+
+
+.skills {
+  display: flex;
+  overflow: hidden;
+  height: 100px;
+  width: 70%;
+  border: solid 2px;
+  border-radius: 30px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: -20px -20px 0px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  background: linear-gradient(135deg, var(--color4), #ffcfcf); 
+}
+
+
+.skills-fastApi {
+  height: 45px;
+  width: 45px;
+}
+
+/*  */
+
+.imgContainer {
+  margin: 3%;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+  border-radius: 10px; /* Bordes redondeados */
+  overflow: hidden; /* Evitar que el contenido se salga del contenedor */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.1s ease-in-out; /* Transición suave al quitar el cursor */
+  width: 100px;
+
+}
+
+.imgContainer:hover {
+  transform: translateY(-5px); /* Desplazamiento hacia arriba al hacer hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.imgContainer.bounce {
+  animation: brinquito 0.1s ease-in-out forwards, rebote 0.1s 0.1s ease-in-out forwards;
+
+}
+
+@keyframes brinquito {
+  0% { transform: translateY(0); } /* Posición original */
+  50% { transform: translateY(-10px); } /* Brinquito hacia arriba */
+  100% { transform: translateY(0); } /* Volver a la posición original */
+}
+
+@keyframes rebote {
+  0% { transform: translateY(0); } /* Posición original */
+  50% { transform: translateY(3px); } /* Bajar un poco */
+  100% { transform: translateY(0); } /* Volver a la posición original */
+}
+
+
+@keyframes superAnimation {
+  0%, 100% { transform: scale(1) translateY(0); opacity: 1; }
+  25% { transform: scale(1.1) translateY(-10px); opacity: 0.8; }
+  50% { transform: scale(0.9) translateY(10px); opacity: 0.6; }
+  75% { transform: scale(1.05) translateY(-5px); opacity: 0.1; }
+}
+
+.playAnimations {
+  animation: superAnimation 5s infinite ease-in-out;
+}
+
+
+.tooltip {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 9999; /* Asegura que el tooltip esté por encima de otros elementos */
+  transform: translateX(-50%);
+  cursor: default;
+}
+
+/* Estilos para el botón */
+.button-expand {
+  margin-right: 0%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.button-expand:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+  transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+
+/* Estilos para el ícono dentro del botón */
+.button-expand i {
+  
+  color: var(--color1);
+  font-size: 20px;
+}
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Color negro con transparencia */
+  z-index: 999; /* Asegura que el overlay esté por encima de todo */
+  display: none; /* Oculto inicialmente */
+
+}
+
+.container--modal {
+  display: none;
+  grid-template-rows: auto 1fr auto; /* Primera fila para el contenido, segunda fila para el espacio, tercera fila para el footer */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color5);
+  height: 70%;
+  width: 70%;
+  padding: 5%;
+  border-radius: 5px;
+  z-index: 1000;
+  grid-template-columns: 1fr 1fr; /* Dos columnas, cada una ocupando el 50% */
+}
+
+.context-element-container {
+  margin: 5%;
+  margin-top: 10%;
+  grid-row: 1; /* Primera fila */
+  grid-column: 1; /* Ocupa las dos columnas */
+  display: flex;
+  padding-bottom: 10px; /* Espaciado entre el contenido y el footer */
+  overflow-y: auto; /* Añade scroll vertical si el contenido es muy largo */
+}
+
+.img-element-container {
+  margin-top: 10%;
+  flex: 1; /* La imagen ocupa el 50% del contenedor */
+  padding-right: 10px; /* Espaciado entre la imagen y el texto */
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px; /* Bordes redondeados para la imagen */
+}
+
+.course-context {
+  flex: 1; /* El texto ocupa el 50% restante del contenedor */
+  color: var(--color3);
+}
+
+.footer-element {
+  grid-row: 3; /* Tercera fila */
+  grid-column: 1 / span 2; /* Ocupa las dos columnas */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px; /* Espaciado entre el contenido y el footer */
+}
+
+.footer-content {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column; /* Alinea los elementos en una columna */
+  align-items: center; /* Centra los íconos horizontalmente */
+  text-align: center; /* Centra el texto */
+}
+
+.footerspan {
+  color: var(--color6);
+  margin-bottom: 10px; /* Espaciado entre el texto y los íconos */
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center; /* Centra los íconos horizontalmente */
+}
+
+.footerIconGitHub,
+.footerIconLinkeding {
+  color: black;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 25px; /* Tamaño de fuente de los íconos */
+  margin-right: 10px; /* Espaciado horizontal entre los íconos */
+  transition: 0.5s;
+}
+
+.footerIconGitHub:hover,
+.footerIconLinkeding:hover {
+  color:var(--color1);
+  transform: scale(1.7); /* Aumenta ligeramente el tamaño del ícono */
+  transition: 1s;
+}
+
+
+
+.containerCountClick {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: var(--color4);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.spanCountClick {
+  font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .skills {
+    height: 80px;
+  }
+  
+  .skills-fastApi {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .imgContainer {
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    height: 60px;
+  }
+  
+  .skills-fastApi {
+    height: 25px;
+    width: 25px;
+  }
+  
+  .imgContainer {
+    margin-left: 1%;
+  }
+}
+
+  /* Media Queries (optional) */
+  @media (max-width: 768px) {
+    /* Adjust grid layout for smaller screens (optional) */
+  }
+  
+
+  

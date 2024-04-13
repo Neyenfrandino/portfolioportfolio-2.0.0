@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "url": "https://plus.unsplash.com/premium_photo-1661496142963-b06fe92d39b7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "App Evely 2.0.0",
+        "contextInfo": "This is Evely's 2.0.0 app. In this application, we are using React.js for the frontend, FastAPI for the backend, and PostgreSQL for the database. This application is pushing me beyond all the limits I had previously experienced, further expanding my knowledge. It's truly showing me how much I enjoy working with React. This app is created for my girlfriend and is an extension of the Evely 1.0.0 app. Here, we handle data, create information, and use it to provide resources.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/app-evely-fullstack"
+    },
+    {
+        "id": 2,
+        "url": "https://images.unsplash.com/photo-1611498478548-78e1314ffbf1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "App Evely",
+        "contextInfo": "This application is version 1.0.0 and was created with JavaScript, CSS, and HTML. It challenged me to solve logical problems and apply the results to an interface. The application was completed with the resources available at that time. It is fully functional, and my girlfriend uses it and continues to do so, eagerly awaiting version 2.0.0 of this app. The application is deployed on AWS.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/Evely-project"
+    },
+    {
+        "id": 3,
+        "url": "https://images.unsplash.com/photo-1633158834806-766387547d2c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Logic challenges",
+        "contextInfo": "These challenges are more than just exercises; they represent my constant pursuit of knowledge and growth in the vast field of computer science. Each challenge overcome is an opportunity to explore new solutions, better understand fundamental concepts, and cultivate a mindset that encompasses not only problem-solving but also innovation and creativity in software development. Each challenge brings me closer to mastering the language of computers and becoming a more skilled and versatile developer.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/ejerciciosDeLogica"
+    },
+    {
+        "id": 4,
+        "url": "https://images.unsplash.com/photo-1612385763901-68857dd4c43c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Games to challenge the mind",
+        "contextInfo": "This is a game I created using JavaScript, HTML, and CSS to practice my skills with these technologies and also apply systemic thinking. While developing this game, my goal was not only to improve my skills in web development but also to deepen my understanding of how different components interact within a system. This project challenged me to think critically and creatively, leading me to find innovative solutions to design and programming problems. It was a rewarding experience that allowed me to expand my knowledge and refine my skills in a practical and engaging way.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/JuegoCuestionario"
+    },
+    {
+        "id": 5,
+        "url": "https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "App trading",
+        "contextInfo":"This application represents a significant milestone in my career, as it was the first time I integrated the backend and the database in a single application. We used JavaScript for the user interface, Flask for the backend, and MySQL for the database. This project arose as a personal challenge, and the process was extremely rewarding. The experience allowed me to make a qualitative leap in how I approach logical reasoning in application development. Before this project, this experience broadened my vision and showed me new possibilities in the field of web development. Although I did not continue with this application, as I later decided to specialize in FastAPI, version 2.0 of this application, we have changed both the database and the backend. This change reflects my evolution and continuous learning in the world of web development, always striving to improve and offer more efficient and advanced solutions.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/interfazTrading"
+    },
+    {
+        "id": 6,
+        "url": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "App cine",
+        "contextInfo": "This is an application for filtering movies based on the user's age. It was one of my first applications developed with JavaScript. I really enjoyed creating this app for everything it taught me. It was a great learning experience that helped me better understand JavaScript concepts and improve my coding skills. Working on this project was a significant milestone in my journey as a developer, and it motivated me to continue learning and growing in the field of web development.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/pagWebCine?tab=readme-ov-file"
+    },
+    {
+        "id": 7,
+        "url": "https://images.unsplash.com/photo-1476231790875-016a80c274f3?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "This portfolio",
+        "contextInfo": "This is the website you are currently interacting with. It is my portfolio developed with JavaScript, CSS, and HTML. This is version 1.0.0 of this portfolio. The next version will be with React. This portfolio showcases my skills, projects, and experiences as a web developer, and it is a representation of my dedication and passion for programming. Each section highlights different aspects of my work, from front-end design to back-end development, demonstrating my versatility and proficiency in various technologies. My goal with this portfolio is to showcase my abilities and attract exciting new opportunities in the field of web development.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/projects-portfolio"
+    },
+    {
+        "id": 8,
+        "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "App de E-Comerce",
+        "contextInfo": "This is an e-commerce application designed for my mom's entrepreneurship. It's built with React.js, and we're using Firebase as both the backend and database. This setup ensures a dynamic and efficient platform for managing online sales, providing a smooth experience for customers and facilitating business growth.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/e-commerce-application"
+    },
+    {
+        "id": 9,
+        "url": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "Back End FastAPI",
+        "contextInfo": "This is a backend created with FastAPI that represents a fundamental part of a robust user and sales management system. By using PostgreSQL as the database, we ensure the integrity and persistence of the information. The ability to relate user data to sales allows for detailed and personalized tracking. Additionally, by hashing passwords and performing verifications, we guarantee the security and confidentiality of user data.",
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/FastApi"
+    },
+    {
+        "id": 10,
+        "url": "https://images.unsplash.com/photo-1634704784915-aacf363b021f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "title": "App trading 2.0",
+        "contextInfo": "In this application, the focus was on migrating the database and backend of the trading 1.0 app. We used JavaScript for the UI, FastAPI for the backend, and PostgreSQL for the database. This project has helped me develop a more systematic thinking regarding an app environment. It has also expanded my learning in databases and backend. The experience has been enriching, not only for the application itself but also for the work in backend and database. However, this project was not completed because as I progress, I discover technologies that align better with what I'm looking for and that can improve performance and code quality, such as React. Therefore, version 3.0.0 will be created with React, and this version will be completed", 
+        "redirectHrefProjectGitHub": "https://github.com/Neyenfrandino/app_trading_fullstack"
+    }
+]
